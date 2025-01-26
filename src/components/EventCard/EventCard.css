@@ -1,0 +1,44 @@
+.card {
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #444;
+    width: 250px;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffc107;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .card .card-btn {
+    padding: 10px 20px;
+    background: #ffc107;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .card .card-btn:hover {
+    background: #000;
+    color: #fff;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }

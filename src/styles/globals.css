@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Bangers', cursive;
+  line-height: 1.6;
+  padding-top: 60px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

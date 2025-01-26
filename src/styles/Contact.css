@@ -1,0 +1,27 @@
+.contact {
+  background: #000;
+  text-align: center;
+  padding: 50px;
+}
+
+.contact h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.contact .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact a {
+  color: #ffc107;
+  font-size: 30px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact a:hover {
+  color: #fff;
+}
