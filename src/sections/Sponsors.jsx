@@ -1,27 +1,41 @@
-import { useEffect, useRef } from 'react';
-import SponsorItem from '../components/SponsorItem/SponsorItem';
+import React, { useEffect, useRef } from 'react';
 import '../styles/sponsors.css';
 
 const Sponsors = () => {
   const sponsors = [
-    { id: 1, name: 'Sponsor 1', description: 'Supporting innovation and creativity' },
-    { id: 2, name: 'Sponsor 2', description: 'Leading the way in technology' },
+    { id: 1, logo: 'https://elfsight.com/wp-content/uploads/2020/07/squarespace@2x.png', alt: 'Sponsor 1' },
+    { id: 2, logo: 'https://elfsight.com/wp-content/uploads/2020/07/html@2x.png', alt: 'Sponsor 2' },
+    { id: 3, logo: 'https://elfsight.com/wp-content/uploads/2020/05/google-sites@2x.png', alt: 'Sponsor 3' },
+    { id: 4, logo: 'https://elfsight.com/wp-content/uploads/2020/07/jquery@2x.png', alt: 'Sponsor 4' },
+    { id: 5, logo: 'https://elfsight.com/wp-content/uploads/2020/07/iframe@2x.png', alt: 'Sponsor 5' },
+    { id: 6, logo: 'https://elfsight.com/wp-content/uploads/2020/07/facebook@2x.png', alt: 'Sponsor 6' },
   ];
 
-  const containerRef = useRef();
+ 
+  const containerRef = useRef(null);
 
   useEffect(() => {
     const container = containerRef.current;
-    let scrollAmount = 0;
-    
-    const scroll = () => {
-      scrollAmount += 1;
-      if (scrollAmount >= container.scrollWidth / 2) scrollAmount = 0;
-      container.style.transform = `translateX(-${scrollAmount}px)`;
-      requestAnimationFrame(scroll);
+    let animationFrame;
+
+    const scrollLogos = () => {
+      if (container) {
+        container.style.transform = `translateX(-${container.scrollLeft}px)`;
+        container.scrollLeft += 1;
+
+        // Reset the scroll position when it reaches the end
+        if (container.scrollLeft >= container.scrollWidth / 2) {
+          container.scrollLeft = 0;
+        }
+      }
+
+      animationFrame = requestAnimationFrame(scrollLogos);
     };
 
-    const animationFrame = requestAnimationFrame(scroll);
+    // Start the animation
+    animationFrame = requestAnimationFrame(scrollLogos);
+
+    // Cleanup on unmount
     return () => cancelAnimationFrame(animationFrame);
   }, []);
 
@@ -29,8 +43,11 @@ const Sponsors = () => {
     <section id="sponsors" className="sponsors">
       <h2>Our Sponsors</h2>
       <div className="sponsor-container" ref={containerRef}>
-        {[...sponsors, ...sponsors].map((sponsor, i) => (
-          <SponsorItem key={`${sponsor.id}-${i}`} {...sponsor} />
+        {/* Duplicate the sponsors array to create a seamless loop */}
+        {[...sponsors, ...sponsors].map((sponsor, index) => (
+          <div key={`${sponsor.id}-${index}`} className="sponsor-item">
+            <img src={sponsor.logo} alt={sponsor.alt} />
+          </div>
         ))}
       </div>
     </section>

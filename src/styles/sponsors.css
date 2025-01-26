@@ -1,48 +1,72 @@
 .sponsors {
-    background: #ff0000;
-    padding: 50px 20px;
-    color: #fff;
+  background: #ff0000;
+  padding: 80px 20px; /* Increased padding for more space */
+  color: #fff;
+  overflow: hidden; /* Ensure overflow is hidden */
+}
+
+.sponsors h2 {
+  font-size: 60px; /* Larger heading */
+  font-family: 'Bangers', cursive;
+  margin-bottom: 50px; /* More space below the heading */
+  text-align: center;
+}
+
+.sponsor-container {
+  display: flex;
+  gap: 60px; /* Increased gap between logos */
+  width: max-content; /* Allow horizontal scrolling */
+  animation: scroll 20s linear infinite; /* Animation for scrolling */
+}
+
+.sponsor-item {
+  flex: 0 0 auto; /* Prevent flex items from shrinking */
+}
+
+.sponsor-item img {
+  width: 200px; /* Logo size */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s ease;
+}
+
+.sponsor-item img:hover {
+  transform: scale(1.1); /* Hover effect */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
   }
-  
+  100% {
+    transform: translateX(-50%); /* Move container to the left */
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .sponsors h2 {
     font-size: 50px;
-    margin-bottom: 40px;
   }
-  
-  .sponsor-container {
-    display: flex;
-    gap: 30px;
-    width: 100%;
-    flex-wrap: wrap;
-  }
-  
-  .sponsor-item {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
+
   .sponsor-item img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 3px solid #fff;
-    margin-bottom: 15px;
+    width: 150px; /* Slightly smaller for tablets */
   }
-  
-  .sponsor-info h3 {
-    font-size: 18px;
-    color: #fff;
+
+  .sponsor-container {
+    gap: 40px; /* Slightly smaller gap for tablets */
   }
-  
-  .sponsor-info p {
-    font-size: 14px;
-    color: #fff;
-    text-align: center;
+}
+
+@media (max-width: 480px) {
+  .sponsors h2 {
+    font-size: 40px;
   }
-  
-  .sponsor-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+  .sponsor-item img {
+    width: 120px; /* Smaller for mobile */
   }
+
+  .sponsor-container {
+    gap: 20px; /* Smaller gap for mobile */
+  }
+}
