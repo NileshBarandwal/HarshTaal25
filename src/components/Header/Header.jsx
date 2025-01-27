@@ -3,7 +3,11 @@ import './Header.css';
 
 const Header = ({ toggleSidebar }) => (
   <header>
-    <h1>HarShtAl</h1>
+    <div className="logo-container">
+      <img className="logo" src="../../../images/iitdh_logo.png" alt="Logo 1" />
+      <img className="logo2" src="../../../images/HarSHtAl_Logo.png" alt="Logo 2" />
+    </div>
+    {/* <h1>HarShtAl</h1> */}
     <nav>
       <ul>
         <li><a href="#about">About</a></li>

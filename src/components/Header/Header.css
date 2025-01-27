@@ -9,6 +9,26 @@ header {
     top: 0;
     z-index: 100;
   }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px; /* Adds space between the two logos */
+  }
+  
+  .logo {
+    max-width: 50px; /* Set the maximum width for the logos */
+    height: 50px;
+  }
+
+  .logo2 {
+    padding-top: 4px;
+    width: 50px; /* Same width as logo1 */
+    height: 50px; /* Same height as logo1 */
+    transform: scale(3.5); /* Zoom in logo2 by 1.5x */
+    transform-origin: center; /* Ensure it zooms in from the center */
+  }
   
   header h1 {
     font-size: 40px;
