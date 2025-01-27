@@ -37,7 +37,7 @@ The **HarShtAl Website** is a React-based single-page application (SPA) designed
 Here’s the structure of the project:
 
 ```
-harshtal-website/
+HarshTaal25/
 ├── public/
 │   ├── index.html
 │   └── images/              # Static images
@@ -195,11 +195,11 @@ harshtal-website/
 ## **Setup Instructions**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/harshtal-website.git
+   git clone https://github.com/NileshBarandwal/HarshTaal25.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd harshtal-website
+   cd HarshTaal25
    ```
 3. Install dependencies:
    ```bash
