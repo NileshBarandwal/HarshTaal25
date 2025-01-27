@@ -1,6 +1,3 @@
-Absolutely! I’ll create a **detailed documentation** for your project, which you can include in the `README.md` file. This will cover the **project structure**, **file directory**, **components**, **workflow**, and more. Here's the complete documentation:
-
----
 
 # **HarShtAl Website Documentation**
 
