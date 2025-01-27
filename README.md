@@ -2,9 +2,9 @@ Absolutely! I’ll create a **detailed documentation** for your project, which y
 
 ---
 
-# **Harshital Website Documentation**
+# **HarShtAl Website Documentation**
 
-This documentation provides an in-depth explanation of the **Harshital Website** project, including its structure, components, workflow, and how to set it up.
+This documentation provides an in-depth explanation of the **HarShtAl Website** project, including its structure, components, workflow, and how to set it up.
 
 ---
 
@@ -29,7 +29,7 @@ This documentation provides an in-depth explanation of the **Harshital Website**
 ---
 
 ## **Project Overview**
-The **Harshital Website** is a React-based single-page application (SPA) designed to showcase information about the event, including:
+The **HarShtAl Website** is a React-based single-page application (SPA) designed to showcase information about the event, including:
 - A countdown timer to the event date.
 - Sections for About, Events, Sponsors, Team, and Contact.
 - A responsive design with smooth scrolling and animations.
@@ -233,6 +233,6 @@ harshtal-website/
 ---
 
 ## **Conclusion**
-This documentation provides a comprehensive guide to the **Harshital Website** project. If you have any questions or need further assistance, feel free to reach out!
+This documentation provides a comprehensive guide to the **HarShtAl Website** project. If you have any questions or need further assistance, feel free to reach out!
 
 ---
