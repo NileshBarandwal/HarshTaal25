@@ -1,0 +1,134 @@
+/* Main Grid Layout */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Max 5 cards per row */
+  gap: 30px;
+  justify-items: center; /* Center the cards */
+  padding: 20px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 1200px) {
+  .team-grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 items per row for medium screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row for small screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .team-grid {
+    grid-template-columns: 1fr; /* 1 item per row for very small screens */
+  }
+}
+
+/* Card Styles */
+.team-card {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+  background-color: #333;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-10px); /* Lift the card */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Bigger shadow on hover */
+}
+
+.team-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.team-card .card-body {
+  padding: 15px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.team-card .card-body h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.team-card .card-body p {
+  font-size: 0.875rem;
+  margin-top: 10px;
+}
+
+/* Hover Effect with Overlay */
+.team-card:hover .card-body {
+  opacity: 0; /* Hide the text when card is expanded */
+}
+
+.team-card .hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: opacity 0.3s ease;
+  padding: 20px;
+  text-align: center;
+}
+
+.team-card:hover .hover-overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+.team-card .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.team-card .social-icons a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.team-card .social-icons a:hover {
+  color: #007bff; /* Icon color change on hover */
+}
+
+/* Adding text to the overlay */
+.team-card .hover-overlay .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.team-card .hover-overlay .card-desc {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+h2{
+  text-align: center;
+  margin: 20px;
+}
