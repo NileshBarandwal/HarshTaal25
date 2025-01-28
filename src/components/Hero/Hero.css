@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  background: url('https://c.tenor.com/qvmIbzzaCAkAAAAd/tenor.gif') no-repeat center center/cover;
+  background: url("https://c.tenor.com/qvmIbzzaCAkAAAAd/tenor.gif") no-repeat center center/cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
 
 .hero h1 {
   font-size: 80px;
-  color: #ffc107;
+  color: #febd59;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 20px;
@@ -20,7 +20,7 @@
 .hero h2 {
   font-size: 60px;
   color: #fff;
-  font-family: 'Bangers', cursive;
+  font-family: "Bangers", cursive;
   letter-spacing: 5px;
   margin-bottom: 30px;
   display: flex;
