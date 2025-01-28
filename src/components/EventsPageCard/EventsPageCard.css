@@ -1,0 +1,69 @@
+/* Container for events */
+.events-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px; /* Add padding for better spacing */
+  }
+  
+  /* Card styling */
+  .event-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    transition: transform 0.3s ease;
+    box-sizing: border-box; /* Ensures padding is included in the total width/height */
+  }
+  
+  .event-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .event-info {
+    flex: 1;
+    color: #fff;
+    padding-right: 40px; /* Padding on the right for spacing */
+  }
+  
+  .event-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .event-info p {
+    font-size: 1rem;
+  }
+  
+  .event-image {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px; /* Padding on the left for spacing */
+  }
+  
+  .event-image img {
+    max-width: 100%; /* Prevents image from growing too large */
+    height: auto; /* Ensures the image maintains its aspect ratio */
+    border-radius: 8px;
+  }
+  
+  /* Left-aligned cards */
+  .event-card.left {
+    justify-content: flex-start; /* Aligns the card to the left */
+  }
+  
+  .event-card.left .event-info {
+    order: -1; /* Makes text appear on the left */
+  }
+  
+  .event-card.right {
+    justify-content: flex-end; /* Aligns the card to the right */
+  }
+  
+  .event-card.right .event-info {
+    order: 1; /* Makes text appear on the right */
+  }  
