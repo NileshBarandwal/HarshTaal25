@@ -1,7 +1,19 @@
 .contact {
-  background: #000;
+  background: #00274c;
   text-align: center;
   padding: 50px;
+  background-image: url("./Wolverine.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 800px 800px;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 250px;
+}
+.contact .container {
+  height: 50vh;
 }
 
 .contact h2 {
@@ -12,11 +24,17 @@
 .contact .social-links {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 
+.contact .logos {
+  font-size: 50px;
+  margin: 20px;
+}
+
 .contact a {
-  color: #ffc107;
+  color: #febd59;
   font-size: 30px;
   text-decoration: none;
   transition: color 0.3s;

@@ -1,5 +1,5 @@
 .sponsors {
-  background: #ff0000;
+  background: #e92027;
   padding: 80px 20px; /* Increased padding for more space */
   color: #fff;
   overflow: hidden; /* Ensure overflow is hidden */
@@ -7,7 +7,7 @@
 
 .sponsors h2 {
   font-size: 60px; /* Larger heading */
-  font-family: 'Bangers', cursive;
+  font-family: "Bangers", cursive;
   margin-bottom: 50px; /* More space below the heading */
   text-align: center;
 }
@@ -28,7 +28,7 @@
   height: auto; /* Maintain aspect ratio */
   transition: transform 0.3s ease;
   filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(174deg) brightness(30%) contrast(101%);
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .sponsor-item img:hover {
