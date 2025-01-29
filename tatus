@@ -1,0 +1,37 @@
+*   [33m11571b6[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'harsha'
+[31m|[m[32m\[m  
+[31m|[m * [33m96441b4[m added header and contacts in events and teams pages
+[31m|[m [32m|[m * [33m059f995[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mPriyanshu-Rao-new-modified[m[33m, [m[1;31morigin/Priyanshu-Rao-new-modified[m[33m, [m[1;32mmain[m[33m, [m[1;32mPriyanshu-Rao-new[m[33m)[m Made changes in Contact.jsx, Team.js, Contact.css, Team.css and added pictures (Meet our team.jpg in styles) and (Wolverine image in sections). In Contact.css, added background, added resposiveness, hover effect on font-icons and also changed 'Wolveriene' image but still not very clear. In Team.css, added background image, hover button color changed, added responsiveness. In Contact.jsx, 'Wolveriene' image with img tag instead of background. In Team.jsx, added text with className='meet-team-text'
+[31m|[m [32m|[m[31m/[m  
+[31m|[m[31m/[m[32m|[m   
+[31m|[m [32m|[m *   [33m665a19c[m[33m ([m[1;31morigin/Priyanshu-Rao-new[m[33m)[m Commiting due to conflit on merge
+[31m|[m [32m|[m [34m|[m[31m\[m  
+[31m|[m [32m|[m[31m_[m[34m|[m[31m/[m  
+[31m|[m[31m/[m[32m|[m [34m|[m   
+* [32m|[m [34m|[m [33mc4cfd3a[m merging harsha branch with main branch
+[36m|[m[32m\[m[32m|[m [34m|[m 
+[36m|[m * [34m|[m [33m7f175e5[m[33m ([m[1;31morigin/Harsha[m[33m)[m routings added and added know more btn in events section
+[36m|[m [1;31m|[m * [33mfa612b2[m Just a small change after the first one
+[36m|[m [1;31m|[m * [33m4b60f6a[m Added responsiveness for text, image, logo for 'Meet our team' and 'Contact Us'. Problem in 'Contact Us' at 1200px. Added background images and text in 'Meet our team'. Also changed the button size. In 'Contact Us' used background image.
+[36m|[m [1;31m|[m[36m/[m  
+[36m|[m[36m/[m[1;31m|[m   
+* [1;31m|[m [33m9fa1f74[m added installation dependences
+* [1;31m|[m [33mc63c4d5[m Merge branch 'harsha'
+[1;32m|[m[1;31m\[m[1;31m|[m 
+[1;32m|[m * [33mf303059[m added teams page and events page
+* [1;33m|[m   [33m29f0d6d[m Merge branch 'Priyanshu-Rao'
+[1;34m|[m[1;35m\[m [1;33m\[m  
+[1;34m|[m * [1;33m|[m [33mc164fce[m Contact Us changed with icon hover effect left. Background colors changed to logo matching colors
+[1;34m|[m [1;33m|[m[1;33m/[m  
+* [1;33m|[m [33m93bfc05[m merging lataksh-sariya branch with main branch
+* [1;33m|[m [33m5b1b906[m[33m ([m[1;31morigin/latakshSariya[m[33m, [m[1;31morigin/lataksh-sariya[m[33m)[m Changed the styles and added animation to the header
+[1;33m|[m[1;33m/[m  
+* [33m2ad6aa5[m add IITDh and Harshtal logo to header and added logo to public/image
+* [33m539a0f3[m updated readme
+* [33m5cfbc1d[m updated readme
+* [33mfb6c945[m updated readme
+* [33m78887ee[m Added readme with updated documentation, working and workflow of harshtal website
+* [33m72df2c7[m Adjusted stying and logo
+* [33md3ee728[m updated sponsor section
+* [33m8e4a4ed[m Created React app for harshtal
+* [33m25ac893[m first commit

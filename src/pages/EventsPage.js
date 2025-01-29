@@ -1,4 +1,8 @@
 import EventsPageCard from "../components/EventsPageCard/EventsPageCard";
+import { useState } from "react";
+import Header from '../components/Header/Header';
+import Contact from "../sections/Contact";
+import Sidebar from '../components/Sidebar/Sidebar';
 
 const eventsInfo = [
   {
@@ -29,19 +33,26 @@ const eventsInfo = [
 ];
 
 const EventsPage = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
   return (
-    <div style={{ padding: "20px",  color: "#fff" }}>
-      <div className="events-container">
-        {eventsInfo.map((event, index) => (
-          <EventsPageCard
-            key={index}
-            image={event.image}
-            title={event.title}
-            description={event.description}
-            index={index} // Passing the index to control left/right placement
-          />
-        ))}
+    <div>
+      <Header toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)} />
+      <Sidebar isOpen={isSidebarOpen} toggleSidebar={() => setIsSidebarOpen(false)} />
+      <div style={{ padding: "20px",  color: "#fff" }}>
+        <div className="events-container">
+          {eventsInfo.map((event, index) => (
+            <EventsPageCard
+              key={index}
+              image={event.image}
+              title={event.title}
+              description={event.description}
+              index={index} // Passing the index to control left/right placement
+            />
+          ))}
+        </div>
       </div>
+      <Contact />
     </div>
   );
 };
