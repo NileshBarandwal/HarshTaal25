@@ -1,6 +1,6 @@
-import React from 'react';
 import EventCard from '../components/EventCard/EventCard';
 import '../styles/Events.css';
+import { useNavigate } from 'react-router-dom';
 
 const Events = () => {
   const events = [
@@ -8,6 +8,12 @@ const Events = () => {
     { id: 2, title: 'Event 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
     { id: 3, title: 'Event 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
   ];
+
+  const navigate = useNavigate();
+
+  const handleEventsNavg = () => {
+    navigate('/events');
+  };  
 
   return (
     <section id="events" className="events">
@@ -21,8 +27,10 @@ const Events = () => {
           />
         ))}
       </div>
+      <button onClick={handleEventsNavg} className='white-btn'>Know More</button>
     </section>
   );
 };
-
+            
+            
 export default Events;

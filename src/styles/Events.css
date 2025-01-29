@@ -62,3 +62,20 @@
   transform: translateY(-10px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
+.white-btn {
+  padding: 15px 40px;
+  border: none;
+  background: #fff;
+  color: #000;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+  margin-top: 60px;
+}
+
+.white-btn:hover {
+  background: #ffc107;
+  color: #fff;
+}
