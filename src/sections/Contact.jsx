@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Contact.css";
 import "remixicon/fonts/remixicon.css";
+import Wolverine from "./Wolverine.png";
 
 const Contact = () => (
   <section id="contact" className="contact">
@@ -18,6 +19,7 @@ const Contact = () => (
         </a>
       </div>
     </div>
+    <img src={Wolverine} className="wolverine" alt="wolverine" />
   </section>
 );
 

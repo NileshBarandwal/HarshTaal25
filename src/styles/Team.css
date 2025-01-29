@@ -1,12 +1,21 @@
 .team {
-  background: url("https://via.placeholder.com/1920x300") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./Meet\ our\ team.jpg") no-repeat center center/cover;
   color: #fff;
   padding: 50px 20px;
   text-align: center;
 }
 
+.team .meet-team-text {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
 .team h2 {
-  font-size: 50px;
+  font-size: 75px;
   margin-bottom: 20px;
 }
 
@@ -22,6 +31,86 @@
 }
 
 .yellow-btn:hover {
-  background: #000;
+  background: #e92027;
   color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .team .meet-team-text {
+    width: 90%;
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+
+  .team h2 {
+    font-size: 60px;
+  }
+
+  .team button {
+    padding: 12px 30px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1235px) {
+  .team {
+    background-position: center center;
+  }
+
+  .team .meet-team-text {
+    width: 90%;
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .team h2 {
+    font-size: 55px;
+  }
+
+  .team button {
+    padding: 10px 25px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team {
+    padding: 40px 15px;
+  }
+
+  .team .meet-team-text {
+    width: 95%;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .team h2 {
+    font-size: 45px;
+  }
+
+  .team button {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .team {
+    padding: 30px 10px;
+  }
+
+  .team .meet-team-text {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .team h2 {
+    font-size: 40px;
+  }
+
+  .team button {
+    padding: 8px 18px;
+    font-size: 16px;
+  }
 }

@@ -2,22 +2,29 @@
   background: #00274c;
   text-align: center;
   padding: 50px;
-  background-image: url("./Wolverine.png");
+  background-image: url("./Footer\ background.png");
   background-repeat: no-repeat;
-  background-position: right;
-  background-size: 800px 800px;
+  background-position: center;
+  background-size: 1500px 1500px;
   height: 100vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 250px;
+  padding-left: 300px;
 }
 .contact .container {
   height: 50vh;
 }
 
+.contact .wolverine {
+  width: 700px;
+  height: auto;
+  position: absolute;
+  right: 20px;
+}
+
 .contact h2 {
-  font-size: 50px;
+  font-size: 75px;
   margin-bottom: 20px;
 }
 
@@ -29,8 +36,13 @@
 }
 
 .contact .logos {
-  font-size: 50px;
+  font-size: 60px;
   margin: 20px;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.contact .logos:hover {
+  font-size: 70px;
 }
 
 .contact a {
@@ -42,4 +54,142 @@
 
 .contact a:hover {
   color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .contact {
+    padding-left: 150px;
+  }
+
+  .contact .wolverine {
+    width: 500px;
+  }
+
+  .contact h2 {
+    font-size: 60px;
+  }
+
+  .contact .logos {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contact .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact .wolverine {
+    width: 350px;
+    right: 0;
+    margin-top: 20px;
+  }
+
+  .contact h2 {
+    font-size: 55px;
+  }
+
+  .contact .logos {
+    font-size: 43px;
+  }
+
+  .contact .social-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .contact .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact .wolverine {
+    width: 350px;
+    right: 0;
+    margin-top: 20px;
+  }
+
+  .contact h2 {
+    font-size: 50px;
+  }
+
+  .contact .logos {
+    font-size: 40px;
+  }
+
+  .contact .social-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .contact .wolverine {
+    width: 300px;
+    right: 0;
+    margin-top: 15px;
+  }
+
+  .contact h2 {
+    font-size: 35px;
+  }
+
+  .contact .logos {
+    font-size: 30px;
+  }
+
+  .contact .social-links {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .contact .container {
+    height: auto;
+    text-align: center;
+  }
+
+  .contact .wolverine {
+    width: 12.5rem;
+    right: 0;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .contact .logos {
+    font-size: 1.5rem;
+  }
+
+  .contact .social-links {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
 }
