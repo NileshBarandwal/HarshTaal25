@@ -1,6 +1,10 @@
 import React from 'react';
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import '../styles/TeamInfo.css';
+import { useState } from "react";
+import Header from '../components/Header/Header';
+import Contact from "../sections/Contact";
+import Sidebar from '../components/Sidebar/Sidebar';
 
 const TeamInfo = () => {
   const teams = {
@@ -33,8 +37,12 @@ const TeamInfo = () => {
     ],
   };
 
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
   return (
     <div>
+      <Header toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)} />
+      <Sidebar isOpen={isSidebarOpen} toggleSidebar={() => setIsSidebarOpen(false)} />
       {Object.keys(teams).map((team) => (
         <div className="team-section" key={team}>
           <h2>{`${team.charAt(0).toUpperCase() + team.slice(1)} Team`}</h2>
@@ -62,6 +70,7 @@ const TeamInfo = () => {
           </div>
         </div>
       ))}
+      <Contact />
     </div>
   );  
 };
