@@ -20,7 +20,7 @@
   margin-bottom: 20px;
 }
 
-.team button {
+.yellow-btn {
   padding: 15px 40px;
   border: none;
   background: #ffc107;
@@ -31,7 +31,7 @@
   transition: background 0.3s, color 0.3s;
 }
 
-.team button:hover {
+.yellow-btn:hover {
   background: #000;
   color: #fff;
 }
