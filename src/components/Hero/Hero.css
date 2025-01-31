@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  background: url('https://c.tenor.com/qvmIbzzaCAkAAAAd/tenor.gif') no-repeat center center/cover;
+  background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3F5c3dub2o0NTNzZ2MxdTRxMHhkMzV0aGx4ZG9xY2VuYmdoejFlbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/n1uOzKXVMW9LBYgtNa/giphy.gif') no-repeat center center/cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,27 +12,32 @@
 }
 
 .hero h1 {
-  font-size: 80px;
+  font-size: 7vw;
   color: #ffc107;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 5px;
+  text-align: center;
+  text-shadow: 
+    2px 2px 0px black,
+    -2px -2px 0px black,
+    2px -2px 0px black,
+    -2px 2px 0px black;
 }
 
 .hero h2 {
-  font-size: 60px;
+  font-size: 4vw;
   color: #fff;
   font-family: 'Bangers', cursive;
   letter-spacing: 5px;
   margin-bottom: 30px;
   display: flex;
   gap: 10px;
-  font-size: 40px;
 }
 
 .hero h2 span {
   background: rgba(255, 193, 7, 0.2);
-  padding: 5px 10px;
+  padding: 1vh 1vw;
   border-radius: 10px;
   border: 2px solid #ffc107;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -43,7 +48,7 @@ button a {
   color: white;
 }
 
-button:hover a{
+a:hover button{
   color: black;
 }
 
