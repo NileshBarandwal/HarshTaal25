@@ -30,8 +30,10 @@
   }
   
   .event-info h3 {
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin-bottom: 10px;
+    line-height: 2rem;
+
   }
   
   .event-info p {
