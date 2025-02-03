@@ -1,36 +1,63 @@
+import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import EventCard from '../components/EventCard/EventCard';
 import '../styles/Events.css';
-import { useNavigate } from 'react-router-dom';
 
 const Events = () => {
-  const events = [
-    { id: 1, title: 'Event 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { id: 2, title: 'Event 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { id: 3, title: 'Event 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-  ];
-
+  const [categories, setCategories] = useState([]);
   const navigate = useNavigate();
 
-  const handleEventsNavg = () => {
-    navigate('/events');
-  };  
+  // Fetch data from API
+  useEffect(() => {
+    const fetchEvents = async () => {
+      try {
+        const response = await fetch('http://localhost:5000/api/events'); // Fetch data from the API
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        const data = await response.json();
+
+        // Get unique categories by categoryType
+        const uniqueCategories = data.map((category) => ({
+          id: category._id,
+          categoryType: category.categoryType, // category name
+        }));
+
+        setCategories(uniqueCategories);
+      } catch (error) {
+        console.error('Error fetching events:', error);
+      }
+    };
+
+    fetchEvents();
+  }, []);
+
+  // Navigate to the events page
+  const handleCategoryClick = (categoryType) => {
+    navigate(`/events?category=${categoryType}`); // Redirect to the specific category events page
+  };
 
   return (
     <section id="events" className="events">
-      <h2>Upcoming Events</h2>
+      <h2>Categories</h2>
       <div className="event-cards">
-        {events.map(event => (
+        {categories.map((category) => (
           <EventCard
-            key={event.id}
-            title={event.title}
-            description={event.description}
-          />
+            key={category.id}
+            title={category.categoryType} // Category title
+            description={`Explore events in the ${category.categoryType} category.`} // A description for the category
+          >
+            <button 
+              onClick={() => handleCategoryClick(category.categoryType)}
+              className="white-btn"
+            >
+              Know More
+            </button>
+          </EventCard>
         ))}
       </div>
-      <button onClick={handleEventsNavg} className='white-btn'>Know More</button>
     </section>
   );
 };
-            
-            
+
 export default Events;
