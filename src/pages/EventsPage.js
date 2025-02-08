@@ -1,56 +1,59 @@
+import React, { useEffect, useState } from "react";
 import EventsPageCard from "../components/EventsPageCard/EventsPageCard";
-import { useState } from "react";
-import Header from '../components/Header/Header';
+import Header from "../components/Header/Header";
 import Contact from "../sections/Contact";
-import Sidebar from '../components/Sidebar/Sidebar';
-
-const eventsInfo = [
-  {
-    image: "https://placehold.co/200", // Replace with your image URL
-    title: "Event Name 1",
-    description:
-      "Sight map half-moon-glasses now with fenrir patronus. Of memory green banquet full-moon pie. Dog robes troll rock-cake beans lupin keeper crush."
-  },
-  {
-    image: "https://placehold.co/200", // Replace with your image URL
-    title: "Event Name 2",
-    description:
-      "Dog robes troll rock-cake beans lupin keeper crush. Of memory green banquet full-moon pie. Sight map half-moon-glasses now with fenrir patronus."
-  },
-  {
-    image: "https://placehold.co/200", // Replace with your image URL
-    title: "Event Name 1",
-    description:
-      "Sight map half-moon-glasses now with fenrir patronus. Of memory green banquet full-moon pie. Dog robes troll rock-cake beans lupin keeper crush."
-  },
-  {
-    image: "https://placehold.co/200", // Replace with your image URL
-    title: "Event Name 2",
-    description:
-      "Dog robes troll rock-cake beans lupin keeper crush. Of memory green banquet full-moon pie. Sight map half-moon-glasses now with fenrir patronus."
-  }
-  // Add more event objects here
-];
+import Sidebar from "../components/Sidebar/Sidebar";
+import axios from "axios";  // Import axios to make the API call
 
 const EventsPage = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [categories, setCategories] = useState([]); // State to store the categories and events
+  const [loading, setLoading] = useState(true);  // State to manage loading state
+
+  // Fetch data from the server
+  useEffect(() => {
+    const fetchEvents = async () => {
+      try {
+        const response = await axios.get("http://localhost:5000/api/events"); // Adjust API endpoint accordingly
+        setCategories(response.data);  // Set the fetched data to the categories state
+        setLoading(false);  // Set loading to false once data is fetched
+      } catch (error) {
+        console.error("Error fetching events:", error);
+        setLoading(false);  // Set loading to false even if there’s an error
+      }
+    };
+
+    fetchEvents();
+  }, []);
+
+  if (loading) {
+    return <div>Loading...</div>;  // Show loading indicator while data is being fetched
+  }
 
   return (
     <div>
       <Header toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)} />
       <Sidebar isOpen={isSidebarOpen} toggleSidebar={() => setIsSidebarOpen(false)} />
-      <div style={{ padding: "20px",  color: "#fff" }}>
-        <div className="events-container">
-          {eventsInfo.map((event, index) => (
-            <EventsPageCard
-              key={index}
-              image={event.image}
-              title={event.title}
-              description={event.description}
-              index={index} // Passing the index to control left/right placement
-            />
-          ))}
-        </div>
+      <div style={{ padding: "20px", color: "#fff" }}>
+        {/* Iterate over categories */}
+        {categories.map((category, categoryIndex) => (
+          <div key={categoryIndex} className="category-section">
+            <h2 style={{ color: "#ffeb3b", fontSize:"50px" }}>{category.categoryType}</h2> {/* Category heading */}
+
+            <div className="events-container">
+              {/* Iterate over events in each category */}
+              {category.events.map((event, eventIndex) => (
+                <EventsPageCard
+                  key={event._id}  // Using event's unique ID
+                  image={event.image}
+                  title={event.name}
+                  description={event.description}
+                  index={eventIndex}  // Passing the index to control left/right placement if necessary
+                />
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
       <Contact />
     </div>
