@@ -2,10 +2,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import App from "./App";
 import EventsPage from './pages/EventsPage';
 import TeamInfo from "./pages/TeamInfo";
+import ScrollToTop from './ScrollToTop';
 
 const AppRouter = () => {
     return (
         <Router> {/* Correctly using BrowserRouter */}
+            <ScrollToTop />
             <Routes>
                 <Route path="/" element={<App />} />
                 <Route path="/events" element={<EventsPage />} />
