@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import EventsPageCard from "../components/EventsPageCard/EventsPageCard";
-import Header from "../components/Header/Header";
-import Contact from "../sections/Contact";
-import Sidebar from "../components/Sidebar/Sidebar";
+import EventsPageCard from "../components/EventsPageCard/EventsPageCard.js";
+import Header from "../components/Header/Header.jsx";
+import Contact from "../sections/Contact.jsx";
+import Sidebar from "../components/Sidebar/Sidebar.jsx";
 import axios from "axios";  // Import axios to make the API call
 
 const EventsPage = () => {

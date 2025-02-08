@@ -1,13 +1,13 @@
 import { useState, useEffect, useRef } from 'react';
-import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
-import About from './sections/About';
-import Events from './sections/Events';
-import Sponsors from './sections/Sponsors';
-import Team from './sections/Team';
-import Contact from './sections/Contact';
-import Sidebar from './components/Sidebar/Sidebar';
-import Form from './sections/Form.jsx'
+import Header from './components/Header/Header.jsx';
+import Hero from './components/Hero/Hero.jsx';
+import About from './sections/About.jsx';
+import Events from './sections/Events.jsx';
+import Sponsors from './sections/Sponsors.jsx';
+import Team from './sections/Team.jsx';
+import Contact from './sections/Contact.jsx';
+import Sidebar from './components/Sidebar/Sidebar.jsx';
+//import Form from './sections/Form.jsx'
 import './styles/globals.css';
 import './App.css';
 
@@ -73,7 +73,7 @@ function App() {
       <Sponsors />
       <Team />
       <Contact />
-      <Form />
+      {/* <Form /> */}
     </div>
   );
 }

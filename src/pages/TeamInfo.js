@@ -2,9 +2,9 @@ import React from 'react';
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import '../styles/TeamInfo.css';
 import { useState } from "react";
-import Header from '../components/Header/Header';
-import Contact from "../sections/Contact";
-import Sidebar from '../components/Sidebar/Sidebar';
+import Header from '../components/Header/Header.jsx';
+import Contact from "../sections/Contact.jsx";
+import Sidebar from '../components/Sidebar/Sidebar.jsx';
 
 const TeamInfo = () => {
   const teams = {
