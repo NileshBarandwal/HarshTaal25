@@ -43,14 +43,15 @@ const EventsPage = () => {
             <div className="events-container">
               {/* Iterate over events in each category */}
               {category.events.map((event, eventIndex) => (
-                <EventsPageCard
-                  key={event._id}  // Using event's unique ID
-                  image={event.image}
-                  title={event.name}
-                  description={event.description}
-                  index={eventIndex}  // Passing the index to control left/right placement if necessary
-                />
-              ))}
+              <EventsPageCard
+                key={event._id} // Using event's unique ID
+                image={event.image}
+                title={event.name}
+                description={event.description}
+                index={eventIndex} // Passing the index to control left/right placement if necessary
+                category={category.categoryType} // Pass category type
+              />
+            ))}
             </div>
           </div>
         ))}

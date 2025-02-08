@@ -3,6 +3,7 @@ import App from "./App.js";
 import EventsPage from './pages/EventsPage.js';
 import TeamInfo from "./pages/TeamInfo.js";
 import ScrollToTop from './ScrollToTop.js';
+import FormComponent from "./sections/Form.jsx";
 
 const AppRouter = () => {
     return (
@@ -13,6 +14,7 @@ const AppRouter = () => {
                 <Route path="/events" element={<EventsPage />} />
                 <Route path="/hi" element={<h1>Hi</h1>} />
                 <Route path="/team" element={<TeamInfo />} />
+                <Route path="/registration" element={<FormComponent />} />
             </Routes>
         </BrowserRouter>
     );
