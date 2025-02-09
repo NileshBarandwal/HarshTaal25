@@ -1,11 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html {
+  height: 100%;
+} */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-linear-gradient(to right, #ff0000, #ff6600),
+              -webkit-linear-gradient(135deg, #ff0000, #ffd700);
+  background: -moz-linear-gradient(to right, #ff0000, #ff6600),
+              -moz-linear-gradient(135deg, #ff0000, #ffd700);
+  background: linear-gradient(to right, #ff0000, #ff6600),
+              linear-gradient(135deg, #ff0000, #ffd700);
+  background-blend-mode: screen;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 1rem;
+  overflow-x: hidden;
+}
+
 /* Container for the entire form */
 .event-form-container {
-  background: orange;
+  background: #111111;
   padding: 40px;
   border-radius: 8px;
   max-width: 600px;
   margin: auto;
   position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  color: #ffd700;
 }
 
 /* Back button styling */
@@ -17,20 +50,28 @@
   border: none;
   font-size: 16px;
   cursor: pointer;
+  color: #ffd700;
+  transition: color 0.2s ease;
+}
+
+.event-back-button:hover {
+  color: #ff0000;
 }
 
 /* Form title styling */
 .event-form-title {
-  background: linear-gradient(45deg, #ff0077, #ff50a1);
-  color: white;
+  background: linear-gradient(45deg, #ff0000, #ffd700);
+  color: #111111;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
+  font-weight: 600;
 }
 
 /* Form styling */
 .event-form {
   margin-top: 20px;
+  width: 100%;
 }
 
 /* Name fields container */
@@ -51,14 +92,26 @@
 .event-form-label {
   display: block;
   margin-bottom: 5px;
+  color: #ffd700;
+  font-weight: 500;
 }
 
 /* Input styling */
 .event-form-input {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ced4da;
+  border: 2px solid #333333;
   border-radius: 4px;
+  background: #222222;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.event-form-input:focus {
+  outline: none;
+  border-color: #ffd700;
+  background: #333333;
+  box-shadow: 0 0 0 4px rgba(255, 215, 0, 0.1);
 }
 
 /* Input group styling */
@@ -69,10 +122,11 @@
 
 .event-input-group-text {
   padding: 10px;
-  background: #e9ecef;
-  border: 1px solid #ced4da;
+  background: #222222;
+  border: 2px solid #333333;
   border-right: none;
   border-radius: 4px 0 0 4px;
+  color: #ffd700;
 }
 
 .event-input-group .event-form-input {
@@ -82,7 +136,7 @@
 
 /* Invalid feedback styling */
 .event-invalid-feedback {
-  color: red;
+  color: #ff0000;
   font-size: 12px;
   margin-top: 5px;
 }
@@ -95,36 +149,51 @@
 
 .event-form-check-input {
   margin-right: 10px;
+  border: 2px solid #333333;
+  background: #222222;
 }
 
 .event-form-check-label {
   margin: 0;
+  color: #ffd700;
 }
 
 /* Submit button styling */
 .event-submit-button {
   width: 100%;
-  background: purple;
+  background: linear-gradient(135deg, #ff0000, #ffd700);
   border: none;
-  color: white;
+  color: #111111;
   padding: 10px;
   border-radius: 4px;
   cursor: pointer;
-  transition: background 0.3s ease; /* Corrected line */
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.event-submit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+  background: linear-gradient(135deg, #ff1a1a, #ffed4a);
+}
+
+.event-submit-button:active {
+  transform: translateY(0);
 }
 
 /* Container for the category section */
 .event-category-container {
-  background: #f9f9f9;
+  background: #222222;
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 20px;
+  border: 2px solid #333333;
 }
 
 /* Title styling for the category */
 .event-category-title {
   font-size: 24px;
-  color: #333;
+  color: #ffd700;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -132,13 +201,31 @@
 /* Subtitle styling for the category */
 .event-category-subtitle {
   font-size: 20px;
-  color: #555;
+  color: #ffed4a;
   margin-bottom: 10px;
 }
 
 /* Paragraph styling for the category */
 .event-category-paragraph {
   font-size: 16px;
-  color: #777;
+  color: #ffd700;
   line-height: 1.5;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .event-form-container {
+    padding: 20px;
+    margin: 1rem;
+    border-radius: 8px;
+  }
+  
+  .event-name-fields {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .event-form-group {
+    min-width: 100%;
+  }
 }
