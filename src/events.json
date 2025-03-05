@@ -1,0 +1,118 @@
+{
+    "categories": [
+        {
+            "categoryName": "Music",
+            "events": [
+                {
+                    "eventName": "Pitch Perfect",
+                    "description": "Unleash the power of your voice at Pitch Perfect , the ultimate solo singing competition at Harshtaal, IIT Dharwad's cultural fest! Whether you mesmerize with classical melodies or set the stage on fire with contemporary beats, this is your chance to shine. Compete with the best, captivate the audience, and let your voice tell a story. Are you ready to own the spotlight?",
+                    "time": "12:00 PM",
+                    "date": "2025-03-21",
+                    "image": "demo.jpg"
+                },
+                {
+                    "eventName": "Jugalbandi",
+                    "description": "Music is better when shared! *Jugalbandi* , the electrifying duet competition at Harshtaal, IIT Dharwad's cultural fest, invites you to create magic with a partner. Whether it's a soulful vocal duet, an instrumental fusion, or a mix of both, this stage is yours to explore harmony, rhythm, and creativity. Team up, tune in, and let your synergy steal the show!",
+                    "time": "12:00 PM",
+                    "date": "2025-03-21",
+                    "image": "demo.jpg"
+                },
+                {
+                    "eventName": "Amped up",
+                    "description": "Get ready to witness a musical showdown like never before! Amped Up, the high-energy band competition at Harshtaal, IIT Dharwad's cultural fest, is the ultimate stage for rhythm, melody, and sheer passion. Whether you're into rock, indie, fusion, or classical ensembles, this is your chance to set the stage on fire. Bring your band, bring your sound, and let the music speak for itself!",
+                    "time": "12:00 PM",
+                    "date": "2025-03-21",
+                    "image": "demo.jpg"
+                }
+            ]
+        },
+        {
+            "categoryName": "Dance",
+            "events": [
+                {
+                    "eventName": "Group Dance",
+                    "description": "Unite your crew, synchronize your moves, and set the stage on fire with your collective energy! Showcase the power of teamwork, precision, and artistic expression in a breathtaking display of group dance. Let your creativity shine as you mesmerize the audience with seamless coordination, compelling storytelling, and a dynamic fusion of diverse dance styles.",
+                    "time": "12:00 PM",
+                    "date": "2025-03-21",
+                    "image": "demo.jpg"
+                },
+                {
+                    "eventName": "Pair on Stage",
+                    "description": "Pair up and let your seamless coordination, connection, and storytelling captivate the stage. Whether fusing styles, crafting a narrative-driven act, or showcasing technical brilliance, mesmerize the audience with your harmony, expressive artistry, and creative synergy. Move as one, unite in rhythm, and leave a lasting impression with a duet performance that speaks through the language of dance.",
+                    "time": "12:00 PM",
+                    "date": "2025-03-21",
+                    "image": "demo.jpg"
+                },
+                {
+                    "eventName": "Solo Dance",
+                    "description": "Command the stage with your unique style, expressive artistry, and captivating presence in a stunning solo dance performance. Whether it's classical, contemporary, hip-hop, jazz, or freestyle, let your creativity shine as you mesmerize the audience with your flawless technique, rhythmic precision, and storytelling through movement.",
+                    "time": "12:00 PM",
+                    "date": "2025-03-21",
+                    "image": "demo.jpg"
+                }
+            ]
+        },
+        {
+            "categoryName": "Quiz",
+            "events": [
+                {
+                    "eventName": "Marvel Cinematic Universe Quiz",
+                    "description": "Get ready for your Marvel knowledge to be put to the test! There are two exciting phases in the Marvel Cinematic Universe Quiz: the preliminary round and the final round. All of the competing teams will compete against one another during the preliminary round, answering a flurry of questions on the MCU's films, characters, and iconic moments. Only the eight teams with the greatest scores advance to the second round, the Finals, when the cutoff is considerably higher. Even the most ardent Marvel fans will find the questions, which range from Infinity Stones to multiversal craziness, to be quite difficult. So gather your crew and prepare for the last battle—may the best heroes win!",
+                    "time": "12:00 PM",
+                    "date": "2025-03-21",
+                    "image": "demo.jpg"
+                }
+            ]
+        },
+        {
+            "categoryName": "Fine Arts",
+            "events": [
+                {
+                    "eventName": "Chromatic Whispers",
+                    "description": "Step into a world where creativity knows no limits with Chromatic Whispers. Unleash the boundless energy of colors and forms as imagination takes the lead. With no rules to confine creativity, abstract painting becomes a dance of emotions on canvas, where every stroke tells a story and every hue evokes a feeling. Let the brush flow freely and bring your vision to life in a masterpiece beyond definition.",
+                    "time": "12:00 PM",
+                    "date": "2025-03-21",
+                    "image": "demo.jpg"
+                },
+                {
+                    "eventName": "Noir",
+                    "description": "experience the raw beauty of monochrome artistry with Noir. Bringing life to art with the power of black, white, and everything in between, every stroke breathes texture and depth into the canvas. With the simplest of tools, smudges, lines, and bold strokes merge to create powerful expressions—artwork that speaks louder than words.",
+                    "time": "12:00 PM",
+                    "date": "2025-03-21",
+                    "image": "demo.jpg"
+                }
+            ]
+        },
+        {
+            "categoryName": "Dramatics",
+            "events": [
+                {
+                    "eventName": "Stage play- Rangbhoomi",
+                    "description": "\ud83c\udfad Experience the Magic of Theatre at Harshtaal! \ud83c\udfad\nWhen words fall silent and expressions speak, theatre is born! The stage at Harshtaal is set once again to bring characters to life, echo powerful dialogues, and paint the raw emotions of reality. From comedy to tragedy, social satire to flights of imagination—every act will transport you to a world beyond the ordinary. Join us in this celebration of expression, art, and storytelling, and witness the magic of theatre unfold before your eyes.\n\nतैयार हो जाइए, क्योंकि पर्दा उठने वाला है! \ud83c\udfad\u2728",
+                    "time": "12:00 PM",
+                    "date": "2025-03-21",
+                    "image": "demo.jpg"
+                },
+                {
+                    "eventName": "Monoact - Akele Karloge",
+                    "description": "\ud83c\udfad Akele Karloge - A Solo Battle with Reality \ud83c\udfad\nCan you truly do everything alone? Akele Karloge dives deep into the struggle between independence and the hidden need for connection. Through a captivating solo act, watch as one character battles their own thoughts, fears, and ambitions, questioning whether solitude is strength or just an illusion. Raw, intense, and thought-provoking—this performance will make you reflect on the fine line between self-reliance and loneliness.\n\nएक मंच। एक कलाकार। हजारों जज़्बात।",
+                    "time": "12:00 PM",
+                    "date": "2025-03-21",
+                    "image": "demo.jpg"
+                }
+            ]
+        },
+        {
+            "categoryName": "Fashion Show",
+            "events": [
+                {
+                    "eventName": "\u2728The Runway Awaits - Fashion Show @Harshtaal!\u2728",
+                    "description": "When style, confidence, and creativity walk hand in hand, fashion is born! Witness a stunning fusion of colors, designs, and expression at Harshtaal's grand fashion show. Every step on the runway tells a story, every look sets a new trend. Get ready for an evening of glamour, grace, and innovation that will leave you spellbound! The runway is set, the lights are ready—now it's time for you to shine!\u2728\ud83d\udd25",
+                    "time": "12:00 PM",
+                    "date": "2025-03-21",
+                    "image": "demo.jpg"
+                }
+            ]
+        }
+    ]
+}

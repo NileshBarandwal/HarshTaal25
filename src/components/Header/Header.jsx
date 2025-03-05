@@ -1,9 +1,16 @@
 import { React, useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 import "./Header.css";
 
 const Header = ({ toggleSidebar, heroHeight }) => {
   const [headerBg, setHeaderBg] = useState(false);
+
+  const navigate = useNavigate();
+
+  const handleMainNav = () => {
+    navigate('/');
+  }
 
   // console.log(headerBg);
   useEffect(() => {
@@ -14,6 +21,8 @@ const Header = ({ toggleSidebar, heroHeight }) => {
         setHeaderBg(false); // Remove background color when above hero section
       }
     };
+
+    
 
     window.addEventListener("scroll", handleScroll);
 
@@ -29,6 +38,7 @@ const Header = ({ toggleSidebar, heroHeight }) => {
     }}>
       <div
         className="logo-container"
+        onClick={handleMainNav}
       >
         <img
           className="logo"

@@ -1,7 +1,7 @@
 import "./EventsPageCard.css";
 import { useNavigate } from "react-router-dom";
 
-const EventsPageCard = ({ title, description, image, index, category }) => {
+const EventsPageCard = ({ title, description, image, index, category,time,date }) => {
   const navigate = useNavigate();
 
   const handleRegButton = () => {
@@ -19,11 +19,12 @@ const EventsPageCard = ({ title, description, image, index, category }) => {
       <div className="event-info">
         <h3>{title}</h3>
         <p>{description}</p>
+        <h4>{time} - {date}</h4>
         <button
           style={{
             marginTop: "10px",
             padding: "10px 15px",
-            backgroundColor: "#ffeb3b",
+            backgroundColor: "#fff",
             color: "#333",
             border: "none",
             borderRadius: "5px",

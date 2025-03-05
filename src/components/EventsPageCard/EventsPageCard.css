@@ -35,6 +35,11 @@
     line-height: 2rem;
 
   }
+
+  .event-info h4 {
+    font-size: 2rem;
+    color: #AA0909;
+  }
   
   .event-info p {
     font-size: 1rem;

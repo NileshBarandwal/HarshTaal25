@@ -2,53 +2,32 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import EventCard from '../components/EventCard/EventCard';
 import '../styles/Events.css';
+import categoriesData from '../events.json';
 
 const Events = () => {
-  const [categories, setCategories] = useState([]);
   const navigate = useNavigate();
+  const [categories,setCategories] = useState([]);
 
-  // Fetch data from API
   useEffect(() => {
-    const fetchEvents = async () => {
-      try {
-        const response = await fetch('http://localhost:5000/api/events'); // Fetch data from the API
-        if (!response.ok) {
-          throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        const data = await response.json();
-
-        // Get unique categories by categoryType
-        const uniqueCategories = data.map((category) => ({
-          id: category._id,
-          categoryType: category.categoryType, // category name
-        }));
-
-        setCategories(uniqueCategories);
-      } catch (error) {
-        console.error('Error fetching events:', error);
-      }
-    };
-
-    fetchEvents();
+    setCategories(categoriesData.categories); // Set categories from JSON
   }, []);
 
-  // Navigate to the events page
   const handleCategoryClick = (categoryType) => {
     navigate(`/events?category=${categoryType}`); // Redirect to the specific category events page
   };
 
   return (
     <section id="events" className="events">
-      <h2>Categories</h2>
+      <h2>EVENTS</h2>
       <div className="event-cards">
-        {categories.map((category) => (
+        {categories.map((category, index) => (
           <EventCard
-            key={category.id}
-            title={category.categoryType} // Category title
-            description={`Explore events in the ${category.categoryType} category.`} // A description for the category
+            key={index}
+            title={category.categoryName} // Display category name
+            description={`Explore events in the ${category.categoryName} category.`} // Category description
           >
             <button 
-              onClick={() => handleCategoryClick(category.categoryType)}
+              onClick={() => handleCategoryClick(category.categoryName)}
               className="white-btn"
             >
               Know More

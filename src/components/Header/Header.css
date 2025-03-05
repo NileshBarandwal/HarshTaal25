@@ -15,6 +15,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 75px; /* Adds space between the two logos */
+  cursor: pointer;
 }
 
 .logo {

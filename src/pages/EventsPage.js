@@ -3,7 +3,7 @@ import EventsPageCard from "../components/EventsPageCard/EventsPageCard.js";
 import Header from "../components/Header/Header.jsx";
 import Contact from "../sections/Contact.jsx";
 import Sidebar from "../components/Sidebar/Sidebar.jsx";
-import axios from "axios";  // Import axios to make the API call
+import categoriesData from '../events.json';
 
 const EventsPage = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -12,18 +12,8 @@ const EventsPage = () => {
 
   // Fetch data from the server
   useEffect(() => {
-    const fetchEvents = async () => {
-      try {
-        const response = await axios.get("http://localhost:5000/api/events"); // Adjust API endpoint accordingly
-        setCategories(response.data);  // Set the fetched data to the categories state
-        setLoading(false);  // Set loading to false once data is fetched
-      } catch (error) {
-        console.error("Error fetching events:", error);
-        setLoading(false);  // Set loading to false even if there’s an error
-      }
-    };
-
-    fetchEvents();
+    setCategories(categoriesData.categories); // Set categories from JSON
+    setLoading(false);
   }, []);
 
   if (loading) {
@@ -38,7 +28,7 @@ const EventsPage = () => {
         {/* Iterate over categories */}
         {categories.map((category, categoryIndex) => (
           <div key={categoryIndex} className="category-section">
-            <h2 style={{ color: "#ffeb3b", fontSize:"50px" }}>{category.categoryType}</h2> {/* Category heading */}
+            <h2 style={{ color: "#ffeb3b", fontSize:"50px" }}>{category.categoryName}</h2> {/* Category heading */}
 
             <div className="events-container">
               {/* Iterate over events in each category */}
@@ -46,10 +36,12 @@ const EventsPage = () => {
               <EventsPageCard
                 key={event._id} // Using event's unique ID
                 image={event.image}
-                title={event.name}
+                title={event.eventName}
                 description={event.description}
                 index={eventIndex} // Passing the index to control left/right placement if necessary
                 category={category.categoryType} // Pass category type
+                time={event.time}
+                date={event.date}
               />
             ))}
             </div>
