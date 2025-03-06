@@ -12,8 +12,10 @@ const Events = () => {
     setCategories(categoriesData.categories); // Set categories from JSON
   }, []);
 
-  const handleCategoryClick = (categoryType) => {
-    navigate(`/events?category=${categoryType}`); // Redirect to the specific category events page
+  const handleCategoryNavClick = (categoryType) => {
+    navigate(`/`); // Redirect to the specific category events page
+    console.log(categoryType);
+    console.log('hi');
   };
 
   return (
@@ -27,7 +29,6 @@ const Events = () => {
             description={`Explore events in the ${category.categoryName} category.`} // Category description
           >
             <button 
-              onClick={() => handleCategoryClick(category.categoryName)}
               className="white-btn"
             >
               Know More

@@ -17,6 +17,7 @@
     margin: 10px 0;
     transition: transform 0.3s ease;
     box-sizing: border-box; /* Ensures padding is included in the total width/height */
+    transition: all 0.3s ease;
   }
   
   .event-card:hover {
@@ -30,9 +31,11 @@
   }
   
   .event-info h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
     line-height: 2rem;
+    font-family: "'Montserrat', sans-serif";
+    color: #0D47A1;
 
   }
 
@@ -42,7 +45,8 @@
   }
   
   .event-info p {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   .event-image {
@@ -74,3 +78,99 @@
   .event-card.right .event-info {
     order: 1; /* Makes text appear on the right */
   }  
+
+  .event-description {
+    display: none;
+    font-size: 1rem;
+    color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* When expanded, show description */
+  .event-card.expanded .event-description {
+    display: block;
+  }
+  
+  /* Register Button */
+  /* .register-btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Bangers";
+  } */
+  
+  /* Mobile-specific styles */
+  /* @media (max-width: 768px) {
+    .event-description {
+      display: none;
+    }
+  } */
+   /* Hide description only for small screens (mobile) */
+@media (max-width: 768px) {
+  .event-description {
+    display: none;
+  }
+
+  .view-details-btn{
+    margin-right: 20px;
+  }
+}
+
+/* Ensure description is visible for larger screens */
+@media (min-width: 769px) {
+  .event-description {
+    display: block;  /* Ensure visibility */
+  }
+}
+
+
+  /* .view-details-btn,
+  .register-now-btn{
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Bangers";
+  margin-right: 20px;
+} */
+
+.custom-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modal Content */
+.custom-modal {
+  background: black;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Close Button */
+.close-btn {
+  margin-top: 15px;
+  padding: 8px 12px;
+  background-color: #AA0909;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

@@ -7,7 +7,7 @@ const EventCard = ({ title, description }) => {
   const navigate = useNavigate();
 
   const handleEventsNavg = () => {
-    navigate("/events");
+    navigate(`/events#${title}`);
   };
 
   return (
