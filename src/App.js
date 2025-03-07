@@ -10,6 +10,7 @@ import Sidebar from './components/Sidebar/Sidebar.jsx';
 //import Form from './sections/Form.jsx'
 import './styles/globals.css';
 import './App.css';
+import Footer from './sections/Footer.js';
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);

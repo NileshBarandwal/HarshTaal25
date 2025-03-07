@@ -11,14 +11,17 @@
   justify-content: center;
 }
 
+
 .about img {
   position: absolute;
-  top: 200px;
+  top: vh;
   transform: translate(-50%, -50%);
-  left: -10px;
-  width: 300px;
+  left: 0vw;
+  width: 35vw;
   transform: rotate(-15deg);
   z-index: 0;
+  rotate: 15deg;
+
 }
 
 .about h2 {
@@ -36,6 +39,7 @@
   margin: 0 auto;
   font-size: 25px;
   line-height: 1.8;
+  margin-right: 20px;
   /* position: absolute; */
   /* left: 50%;
   transform: translate(-50%);
@@ -46,5 +50,8 @@
 @media (max-width: 1300px) {
   .about img{
     display: none;
+  }
+  .about p{
+    margin-left: 20px;
   }
 }

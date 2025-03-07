@@ -8,7 +8,7 @@ import FormComponent from "./sections/Form.jsx";
 const AppRouter = () => {
     return (
         <BrowserRouter> {/* Use BrowserRouter directly */}
-            <ScrollToTop />
+            {/* <ScrollToTop /> */}
             <Routes>
                 <Route path="/" element={<App />} />
                 <Route path="/events" element={<EventsPage />} />

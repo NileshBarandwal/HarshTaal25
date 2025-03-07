@@ -8,6 +8,13 @@ const EventCard = ({ title, description }) => {
 
   const handleEventsNavg = () => {
     navigate(`/events#${title}`);
+
+    setTimeout(() => {
+      const element = document.getElementById(title);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 100); 
   };
 
   return (
