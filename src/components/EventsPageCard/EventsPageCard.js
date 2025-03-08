@@ -52,7 +52,7 @@ const EventsPageCard = ({ title, description, image, index, category, time, date
           </button>
         )}
 
-        <button
+        {/* <button
           style={{
             marginTop: "10px",
             padding: "10px 15px",
@@ -66,7 +66,7 @@ const EventsPageCard = ({ title, description, image, index, category, time, date
           className="register-now-btn"
         >
           Register Now
-        </button>
+        </button> */}
       </div>
 
       

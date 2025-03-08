@@ -37,6 +37,7 @@ const EventsPage = () => {
 
   return (
     <div>
+      {/* <Header /> */}
       {/* <Header toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)} />
       <Sidebar isOpen={isSidebarOpen} toggleSidebar={() => setIsSidebarOpen(false)} /> */}
       <div style={{ padding: "20px", color: "#fff", paddingTop: "0px" }}>

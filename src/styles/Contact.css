@@ -71,6 +71,7 @@
   .contact .logos {
     font-size: 50px;
   }
+
 }
 
 @media (max-width: 1000px) {
@@ -129,6 +130,10 @@
   .contact .social-links {
     flex-direction: column;
     gap: 10px;
+  }
+
+  .wolverine{
+    display: none;
   }
 }
 

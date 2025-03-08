@@ -119,6 +119,22 @@
   .view-details-btn{
     margin-right: 20px;
   }
+
+  .event-info h3{
+    font-size: 30px;
+  }
+
+  .event-info h4{
+    font-size: 25px;
+  }
+
+  .view-details-btn{
+    font-size: 20px;
+  }
+
+  .modal-content h2{
+    color: #0D47A1;
+  }
 }
 
 /* Ensure description is visible for larger screens */
@@ -126,6 +142,7 @@
   .event-description {
     display: block;  /* Ensure visibility */
   }
+  
 }
 
 

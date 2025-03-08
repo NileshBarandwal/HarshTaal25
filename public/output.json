@@ -1,0 +1,398 @@
+{
+    "Core Team": [
+        {
+            "name": "Manindra Singh Rathore",
+            "position": "Overall Coordinator",
+            "contact": "98280 79907",
+            "image": "NA",
+            "instagram": "NA",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Vedant Kannur",
+            "position": "Overall Coordinator",
+            "contact": "94499 38066",
+            "image": "https://drive.google.com/open?id=1q7m7bCZWgdDYoYiEjN5Ws_2SItN82lu7",
+            "instagram": "https://www.instagram.com/vedantkannur_07?igsh=bDlsbXhuamdiNDN0",
+            "linkedin": "https://www.linkedin.com/in/vedant-kannur-478a50239?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        },
+        {
+            "name": "Hemant Nayak",
+            "position": "Events Lead",
+            "contact": "96979 79652",
+            "image": "NA",
+            "instagram": "NA",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Ayushman Betapudi",
+            "position": "Operations Lead",
+            "contact": "94908 26832",
+            "image": "https://drive.google.com/open?id=18HJ6xXVo3hFzY7t6YsgnXT_oiLDnf5hy",
+            "instagram": "NA",
+            "linkedin": "ayushmaan-betapudi-35201526a"
+        },
+        {
+            "name": "Aryan Gupta",
+            "position": "Head of Finance",
+            "contact": "96960 88385",
+            "image": "https://drive.google.com/open?id=1zQAY72tr0b-gi1RezCKCF6qL4hpFYuUn",
+            "instagram": "https://www.instagram.com/arrryan.gupta?igsh=ZzVjY2kydnRjZDhj",
+            "linkedin": "https://www.linkedin.com/in/aryan-gupta2003?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        },
+        {
+            "name": "Shivam Sharma",
+            "position": "Marketing Lead",
+            "contact": "91400 06986",
+            "image": "https://drive.google.com/open?id=1gxZStg2Yv4HqNQbAHgaxqjb1XTFR6Eqf",
+            "instagram": "https://www.instagram.com/_.shiv_yum?igsh=MWlvNHJ3NjJxNzRibw==",
+            "linkedin": "https://www.linkedin.com/in/shivam-sharma-a3465625a/"
+        },
+        {
+            "name": "Neeli Deekshith",
+            "position": "Logistics Head",
+            "contact": "94947 40990",
+            "image": "https://drive.google.com/open?id=1xux8yxI9fII0rir_xIeub-X8HzcpMiVF",
+            "instagram": "NA",
+            "linkedin": "linkedin.com/in/deekshith07"
+        },
+        {
+            "name": "Aaditya Agarwal",
+            "position": "Junior Overall Coordinator",
+            "contact": "86605 01665",
+            "image": "NA",
+            "instagram": "NA",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Priyanshu Vijay",
+            "position": "Junior Overall Coordinator",
+            "contact": "90276 52829",
+            "image": "NA",
+            "instagram": "NA",
+            "linkedin": "NA"
+        }
+    ],
+    "Team Heads": [
+        {
+            "name": "Yash Kute",
+            "position": "Hospitality Head (Men)",
+            "contact": "95298 63834",
+            "image": "https://drive.google.com/open?id=10fmCwC-hnBKesffPoQYVy0DY7bbwuWjH",
+            "instagram": "yash2805k",
+            "linkedin": "https://www.linkedin.com/in/yash-kute2805?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        },
+        {
+            "name": "Shreya Sharma",
+            "position": "Hospitality Head (Women)",
+            "contact": "76490 24591",
+            "image": "https://drive.google.com/open?id=1q2gaZI1Bia6qPDtwBWHUg758lhu3r2Kt",
+            "instagram": "sharma_shreya23",
+            "linkedin": "https://www.linkedin.com/in/shreya-sharma2324"
+        },
+        {
+            "name": "Tushar Moitra",
+            "position": "Website Head",
+            "contact": "97809 06770",
+            "image": "NA",
+            "instagram": "NA",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Abhiraj Kumar",
+            "position": "Sponsorship Head",
+            "contact": "81787 80088",
+            "image": "NA",
+            "instagram": "NA",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Gone Silas",
+            "position": "Social Media Head",
+            "contact": "91827 83689",
+            "image": "https://drive.google.com/open?id=1lFgaEQSvRvXUHm36t_wN8hkkIkhEaXUy",
+            "instagram": "Staniz_k4",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Sri Smaran",
+            "position": "Content Head",
+            "contact": "6309 776 899",
+            "image": "https://drive.google.com/open?id=1mvGZDxs-uYLs3zuV0xBl79h8u5XbSWay",
+            "instagram": "srismaran_3581",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Ayush Vats",
+            "position": "Design Head",
+            "contact": "83681 86537",
+            "image": "NA",
+            "instagram": "NA",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Jatin Lather",
+            "position": "Outreach Head",
+            "contact": "78276 42954",
+            "image": "NA",
+            "instagram": "NA",
+            "linkedin": "NA"
+        }
+    ],
+    "Club Secretaries": [
+        {
+            "name": "Priyanshu Vijay",
+            "position": "Dramatics",
+            "contact": "NA",
+            "image": "NA",
+            "instagram": "NA",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Mann Maru",
+            "position": "Music",
+            "contact": "8424990170",
+            "image": "https://drive.google.com/open?id=1m70ueXtlbri6uRWlsSzUDVNj39mzl4pS",
+            "instagram": "@mann.maru.24",
+            "linkedin": "www.linkedin.com/in/mann-maru-0a91b124a"
+        },
+        {
+            "name": "Pooja Ramesh",
+            "position": "Dance",
+            "contact": "NA",
+            "image": "NA",
+            "instagram": "NA",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Yogita Darji",
+            "position": "Fine Arts",
+            "contact": "9875787379",
+            "image": "https://drive.google.com/open?id=1Ot_5-QOS2W0ZAKT69pOS-SZZvJ5cSciX",
+            "instagram": "20_yogita_23",
+            "linkedin": "."
+        },
+        {
+            "name": "Prachi Prasoon",
+            "position": "Literary",
+            "contact": "8277243415",
+            "image": "https://drive.google.com/open?id=1-SC8uYGHAM7lxKAxs6DuhPPGy_PZze8L",
+            "instagram": "I don't use Instagram",
+            "linkedin": "www.linkedin.com/in/prachi-prasoon"
+        },
+        {
+            "name": "Gaurav Singhal",
+            "position": "Quiz",
+            "contact": "9769021545",
+            "image": "https://drive.google.com/open?id=1YL9TCy8poEJeyHPc0Z_vh77c8Hv8g2hb",
+            "instagram": "https://www.instagram.com/gauravsinghal111?igsh=MXh3dGNlcnZ6ZmpwZg==",
+            "linkedin": "https://www.linkedin.com/in/gaurav-singhal-5b0805265/"
+        },
+        {
+            "name": "Bidipta Saha",
+            "position": "Photography and Films",
+            "contact": "NA",
+            "image": "NA",
+            "instagram": "NA",
+            "linkedin": "NA"
+        }
+    ],
+    "POCs for events": [
+        {
+            "name": "Partha Sarathi Roy",
+            "position": "Dramatics",
+            "contact": "9863510520",
+            "image": "https://drive.google.com/open?id=1X8--byIGJ8hUwzY3wUGdrB1EunTjdUa1",
+            "instagram": "partha_1803",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Kaushal Aditya Bhooshan",
+            "position": "Music",
+            "contact": "9449424745",
+            "image": "https://drive.google.com/open?id=17kaHCtBWFsIeaY0VO_96K7bixuWs9roD",
+            "instagram": "NIL",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Karyada Vara Prasad Reddy",
+            "position": "Dance",
+            "contact": "7013943406",
+            "image": "https://drive.google.com/open?id=17MCafzN2qBOvGwM3qLSaHUAZfptmLAKT",
+            "instagram": "stalin_0806",
+            "linkedin": "https://www.linkedin.com/in/karyada-varaparasad-reddy-8a59b7228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        },
+        {
+            "name": "Prakruthi K S",
+            "position": "Fine Arts",
+            "contact": "8762131017",
+            "image": "https://drive.google.com/open?id=15u5f8Q15zkDuRP5eVxvFzl0N1rAbEdSY",
+            "instagram": "g0ldensunshine._",
+            "linkedin": "https://www.linkedin.com/in/prakruthi-k-s-2663ba355"
+        },
+        {
+            "name": "Prajwal Prasad",
+            "position": "Literary",
+            "contact": "8861032439",
+            "image": "https://drive.google.com/open?id=1rRc__HP3x65bVClmrjAaSrackHkVoKnk",
+            "instagram": "prajwal._.n",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Abhinandan Jain",
+            "position": "Quiz",
+            "contact": "9039929509",
+            "image": "https://drive.google.com/open?id=1ZSo28UZbHHgGjTyHssXsiukUCkPjkvC2",
+            "instagram": "abhinandan_j_",
+            "linkedin": "https://www.linkedin.com/in/abhinandan-jain-5808a728a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        },
+        {
+            "name": "Mayank Aggarwal",
+            "position": "Photography and Films",
+            "contact": "9634778805",
+            "image": "https://drive.google.com/open?id=1JDrnrSg5Sn2NqYoB5Uz08DdP4PkDbWTc",
+            "instagram": "hey.p9dt",
+            "linkedin": "https://www.linkedin.com/in/mayank-sharma-aa3648287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+    ],
+    "Hospitality Team (MEN)": [
+
+    ],
+    "Hospitality Team (WOMEN)": [
+        
+    ],
+    "Web Team": [
+        {
+            "name": "Sai Sreeharsha Bolloju",
+            "position": "NA",
+            "contact": "9391323593",
+            "image": "https://drive.google.com/open?id=1JL3CXamb4wccptgTT7agzi9P69EFGcHL",
+            "instagram": "https://www.instagram.com/sreehb_123",
+            "linkedin": "https://www.linkedin.com/in/bolloju-sai-sreeharsha-002b50295?trk=contact-info"
+        },
+        {
+            "name": "Nilesh.R.Barandwal",
+            "position": "NA",
+            "contact": "7620202306",
+            "image": "https://drive.google.com/open?id=1pZI2POAXiikgeELlRZOQFrSzhAuazHaT",
+            "instagram": "NA",
+            "linkedin": "nilesh-barandwal-8403ab182"
+        },
+        {
+            "name": "Priyanshu Rao",
+            "position": "NA",
+            "contact": "6378910149",
+            "image": "https://drive.google.com/open?id=1lG9mYXR_HuO7B9BMHLScBGpUUKxYm4v0",
+            "instagram": "https://www.instagram.com/priyanshu_rao121",
+            "linkedin": "https://www.linkedin.com/in/priyanshu-rao"
+        },
+        {
+            "name": "Dhanush H N",
+            "position": "NA",
+            "contact": "6362108740",
+            "image": "https://drive.google.com/open?id=1Q9RTN-FeWCQmIwvp0iQqBj_5e6ZsXnL0",
+            "instagram": "@_dhn_10",
+            "linkedin": "https://www.linkedin.com/in/dhanush-h-n-459937319"
+        }
+    ],
+    "Sponsorship Team": [
+        
+    ],
+    "Social Media Team": [
+        {
+            "name": "Rickycharan",
+            "position": "NA",
+            "contact": "9110372770",
+            "image": "https://drive.google.com/open?id=1nm1C_nH3tUNmjF3fh75fHZDhcAUP3-iz",
+            "instagram": "rickycharan_rc",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Srishanth Naidu",
+            "position": "NA",
+            "contact": "8639957785",
+            "image": "https://drive.google.com/open?id=10moUHiz-OCAOpaO3TClFs5Z7q1gQvO44",
+            "instagram": "_srish.nxttt",
+            "linkedin": "https://www.linkedin.com/in/srishanth-naidu-siragam-4a8a07328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+    ],
+    "Content Team": [
+        {
+            "name": "K S Navajeevan",
+            "position": "NA",
+            "contact": "8610273236",
+            "image": "https://drive.google.com/open?id=1Gz0uIVa3O9SaewKuxmFot2M5jj-Aq3ru",
+            "instagram": "jeevan_2071",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Sheetal",
+            "position": "NA",
+            "contact": "7075558620",
+            "image": "https://drive.google.com/open?id=1ssHIV_y3HhxcSkf0D6N9-54ElojixcHN",
+            "instagram": "dream.cookie._",
+            "linkedin": "https://www.linkedin.com/in/nakka-sheetal-rao-603026236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        },
+        {
+            "name": "Naga Harshit",
+            "position": "NA",
+            "contact": "8978495632",
+            "image": "https://drive.google.com/open?id=1bk_snnrtaSxgh1T52jGgOnq4fB06hqtn",
+            "instagram": "_theycallmeharshit",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Sudhakar s Dalawayi",
+            "position": "NA",
+            "contact": "9037228517",
+            "image": "https://drive.google.com/open?id=1FT63TTJiUTqP7IqciQgzEmmW5z3Vde_U",
+            "instagram": "sudhakardalawayi",
+            "linkedin": "NA"
+        },
+        {
+            "name": "Tushar Bishnoi ",
+            "position": "NA",
+            "contact": "8569978924",
+            "image": "https://drive.google.com/open?id=1RsDKuIUCE1KWM7tJr9RyYPbKZiIS_XXs",
+            "instagram": "tusharbishnoi__",
+            "linkedin": "https://www.linkedin.com/in/tushar-bishnoi-39394b354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        },
+        {
+            "name": "Kirtiraj Mallik ",
+            "position": "NA",
+            "contact": "7749876341",
+            "image": "https://drive.google.com/open?id=1pXkHUm7c9Mvg6st2bhPYzbisxEQiOjcp",
+            "instagram": "https://www.instagram.com/kirtiraj_mallick?igsh=MWJxdzRlNGM4MWVwZQ==",
+            "linkedin": "https://www.linkedin.com/in/kirtiraj-mallik-651606254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        },
+        {
+            "name": "M.Sai Sindhuja",
+            "position": "NA",
+            "contact": "9573127125",
+            "image": "https://drive.google.com/open?id=1myh7WWGv7qoET8NjIZXauoytJR6jkR85",
+            "instagram": "Sindhu_7125",
+            "linkedin": "https://www.linkedin.com/in/meegada-sai-sindhuja-913756306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        }
+    ],
+    "Design Team": [
+        
+    ],
+    "Outreach Team": [
+        {
+            "name": "Apratim Das",
+            "position": "NA",
+            "contact": "6909568296",
+            "image": "https://drive.google.com/open?id=1Hu7LP8wBlLFM5cLG2VefOjXdwXHdMRKj",
+            "instagram": "@apratimdasofficial",
+            "linkedin": "https://www.linkedin.com/in/apratim-das-82a043316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        },
+        {
+            "name": "Jandrasupalli Devansh",
+            "position": "NA",
+            "contact": "9513722004",
+            "image": "https://drive.google.com/open?id=1tQWV44tifTIk1bVArys4LZnV2ZZIeZkI",
+            "instagram": "@_devansh.j_",
+            "linkedin": "NA"
+        }
+    ]
+}

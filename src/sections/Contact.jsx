@@ -11,11 +11,11 @@ const Contact = () => (
         <a href="mailto:contact@harshtal.com">
           <i className="ri-mail-line logos"></i>
         </a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/harshtal_iitdh" target="_blank" rel="noopener noreferrer">
           <i className="ri-instagram-line logos"></i>
         </a>
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-          <i className="ri-facebook-circle-line logos"></i>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <i className="ri-linkedin-box-fill"></i>
         </a>
       </div>
     </div>
