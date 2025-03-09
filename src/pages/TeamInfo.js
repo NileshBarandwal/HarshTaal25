@@ -24,13 +24,15 @@ const TeamSection = () => {
           <div className="team-grid">
             {teams[team].map((member, index) => (
               <div className="team-card" key={index}>
-                <img src={member.image} alt={member.name} />
+                {member.image != "NA" && (
+                  <img src={member.image} alt={member.name} />
+                )}
                 {/* {console.log(member.image)} */}
-                <div className="card-body">
-                  <h3 className="card-title">{member.name}</h3>
+                <div className="team-card-body">
+                  <h3 className="team-card-title">{member.name}</h3>
                 </div>
                 <div className="hover-overlay">
-                  <h3 className="card-title">{member.name}</h3>
+                  <h3 className="team-card-title">{member.name}</h3>
                   {member.position !== "NA" && <p className="card-desc">{member.position}</p>}
                   <div className="social-icons">
                     {member.instagram !== "NA" && (
