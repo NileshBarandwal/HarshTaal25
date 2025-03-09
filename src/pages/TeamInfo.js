@@ -24,7 +24,7 @@ const TeamSection = () => {
           <div className="team-grid">
             {teams[team].map((member, index) => (
               <div className="team-card" key={index}>
-                {member.image != "NA" && (
+                {member.image !== "NA" && (
                   <img src={member.image} alt={member.name} />
                 )}
                 {/* {console.log(member.image)} */}
@@ -36,12 +36,12 @@ const TeamSection = () => {
                   {member.position !== "NA" && <p className="card-desc">{member.position}</p>}
                   <div className="social-icons">
                     {member.instagram !== "NA" && (
-                      <a href={member.instagram} target="_blank" rel="noopener noreferrer">
+                      <a href={member.instagram} target="_blank" rel="noopener noreferrer" className="insta-link">
                         <FaInstagram />
                       </a>
                     )}
                     {member.linkedin !== "NA" && (
-                      <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
+                      <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="linkedin-link">
                         <FaLinkedin />
                       </a>
                     )}

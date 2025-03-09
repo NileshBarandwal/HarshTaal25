@@ -114,8 +114,16 @@
   transition: color 0.3s ease;
 }
 
-.team-card .social-icons a:hover {
-  color: #007bff; /* Icon color change on hover */
+/* .team-card .social-icons a:hover {
+  color: #e92027; 
+} */
+
+.team-card .insta-link:hover{
+  color: #e92027;
+}
+
+.team-card .linkedin-link:hover{
+  color: #ffc107;
 }
 
 /* Adding text to the overlay */
