@@ -47,7 +47,7 @@ const Header = ({ toggleSidebar, heroHeight }) => {
         />
         <img
           className="logo2"
-          src="../../../images/HarSHtAl_Logo.png"
+          src="/images/Harshtal_logo_noblack.png"
           alt="Logo 2"
         />
       </div>
@@ -62,6 +62,9 @@ const Header = ({ toggleSidebar, heroHeight }) => {
           </li>
           <li>
             <a href="#sponsors">Sponsors</a>
+          </li>
+          <li>
+            <a href="/timeline">Schedule</a>
           </li>
           <li>
             <a href="#team">Team</a>

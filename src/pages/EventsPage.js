@@ -5,6 +5,7 @@ import Contact from "../sections/Contact.jsx";
 import Sidebar from "../components/Sidebar/Sidebar.jsx";
 import categoriesData from '../events.json';
 import { useLocation } from "react-router-dom";
+import HomeNav from "../components/HomeNav/HomeNav.js";
 
 const EventsPage = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -40,6 +41,7 @@ const EventsPage = () => {
       {/* <Header /> */}
       {/* <Header toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)} />
       <Sidebar isOpen={isSidebarOpen} toggleSidebar={() => setIsSidebarOpen(false)} /> */}
+      <HomeNav />
       <div style={{ padding: "20px", color: "#fff", paddingTop: "0px" }}>
         {/* Iterate over categories */}
         {categories.map((category, categoryIndex) => (

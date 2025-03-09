@@ -4,6 +4,7 @@ import EventsPage from './pages/EventsPage.js';
 import TeamInfo from "./pages/TeamInfo.js";
 import ScrollToTop from './ScrollToTop.js';
 import FormComponent from "./sections/Form.jsx";
+import Timeline from "./pages/Schedule.js";
 
 const AppRouter = () => {
     return (
@@ -15,6 +16,7 @@ const AppRouter = () => {
                 <Route path="/hi" element={<h1>Hi</h1>} />
                 <Route path="/team" element={<TeamInfo />} />
                 <Route path="/registration" element={<FormComponent />} />
+                <Route path="/timeline" element={<Timeline />} />
             </Routes>
         </BrowserRouter>
     );

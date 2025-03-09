@@ -33,7 +33,7 @@ const EventsPageCard = ({ title, description, image, index, category, time, date
           <p>{description}</p>
         </div>
       )}
-        <h4>{time} - {date}</h4>
+        <h4>{date}</h4>
 
         {isMobile && (
           <button className="view-details-btn" onClick={() => setModalIsOpen(true)}

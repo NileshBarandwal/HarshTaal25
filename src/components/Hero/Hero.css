@@ -40,7 +40,7 @@
 
 .hero h2 {
   font-size: 4vw;
-  color: #fff;
+  color: #e92027;
   font-family: 'Bangers', cursive;
   letter-spacing: 5px;
   margin-bottom: 30px;
@@ -68,10 +68,10 @@ a:hover button{
 .hero button {
   margin-top: 30px;
   padding: 15px 40px;
-  font-size: 20px;
-  border: 2px solid #ffc107;
+  font-size: 25px;
+  border: 2px solid #e92027;
   background: transparent;
-  color: #ffc107;
+  color: #e92027;
   cursor: pointer;
   border-radius: 5px;
   transition: 0.3s;
@@ -81,4 +81,5 @@ a:hover button{
 .hero button:hover {
   background: #ffc107;
   color: #000;
+  border-color: #ffc107;
 }

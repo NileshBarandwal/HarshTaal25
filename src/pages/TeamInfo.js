@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import '../styles/TeamInfo.css';
 import Contact from '../sections/Contact.jsx';
+import HomeNav from "../components/HomeNav/HomeNav.js";
 
 
 const TeamSection = () => {
@@ -16,6 +17,7 @@ const TeamSection = () => {
 
   return (
     <div>
+      <HomeNav />
       {Object.keys(teams).map((team) => (
         <div className="team-section" key={team}>
           <h2>{`${team}`}</h2>

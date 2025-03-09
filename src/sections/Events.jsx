@@ -26,7 +26,7 @@ const Events = () => {
           <EventCard
             key={index}
             title={category.categoryName} // Display category name
-            description={`Explore events in the ${category.categoryName} category.`} // Category description
+            // description={`Explore events in the ${category.categoryName} category.`} // Category description
           >
             <button 
               className="white-btn"
