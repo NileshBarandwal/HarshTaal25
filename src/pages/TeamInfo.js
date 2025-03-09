@@ -23,6 +23,7 @@ const TeamSection = () => {
             {teams[team].map((member, index) => (
               <div className="team-card" key={index}>
                 <img src={member.image} alt={member.name} />
+                {/* {console.log(member.image)} */}
                 <div className="card-body">
                   <h3 className="card-title">{member.name}</h3>
                 </div>

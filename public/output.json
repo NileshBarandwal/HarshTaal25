@@ -20,9 +20,9 @@
             "name": "Hemant Nayak",
             "position": "Events Lead",
             "contact": "96979 79652",
-            "image": "NA",
-            "instagram": "NA",
-            "linkedin": "NA"
+            "image": "https://drive.google.com/open?id=1eOVurTcGO9ssjq28mv4Z1kt5P0WS5K0B",
+            "instagram": "https://www.instagram.com/hemanth_.15",
+            "linkedin": "https://www.linkedin.com/in/hemanth-nayak-1b92a8241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         },
         {
             "name": "Ayushman Betapudi",
@@ -154,7 +154,7 @@
             "contact": "8424990170",
             "image": "https://drive.google.com/open?id=1m70ueXtlbri6uRWlsSzUDVNj39mzl4pS",
             "instagram": "https://www.instagram.com/mann.maru.24",
-            "linkedin": "www.linkedin.com/in/mann-maru-0a91b124a"
+            "linkedin": "https://www.linkedin.com/in/mann-maru-0a91b124a"
         },
         {
             "name": "Pooja Ramesh",
@@ -255,12 +255,8 @@
             "linkedin": "https://www.linkedin.com/in/mayank-sharma-aa3648287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         }
     ],
-    "Hospitality Team (MEN)": [
-
-    ],
-    "Hospitality Team (WOMEN)": [
-        
-    ],
+    "Hospitality Team (MEN)": [],
+    "Hospitality Team (WOMEN)": [],
     "Web Team": [
         {
             "name": "Sai Sreeharsha Bolloju",
@@ -303,9 +299,7 @@
             "linkedin": "https:www/linkedin.com/in/nilesh-barandwal-8403ab182"
         }
     ],
-    "Sponsorship Team": [
-        
-    ],
+    "Sponsorship Team": [],
     "Social Media Team": [
         {
             "name": "Rickycharan",
@@ -380,11 +374,17 @@
             "image": "https://drive.google.com/open?id=1myh7WWGv7qoET8NjIZXauoytJR6jkR85",
             "instagram": "https://www.instagram.com/Sindhu_7125",
             "linkedin": "https://www.linkedin.com/in/meegada-sai-sindhuja-913756306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        },
+        {
+            "name": "Harshwardhan Prabhakar",
+            "position": "NA",
+            "contact": "8544074404",
+            "image": "https://drive.google.com/open?id=1Zwg8n9soQgyN8JlHC8_sM7ue8W6OEDtf",
+            "instagram": "https://www.instagram.com/harshprabhakar902",
+            "linkedin": "NA"
         }
     ],
-    "Design Team": [
-        
-    ],
+    "Design Team": [],
     "Outreach Team": [
         {
             "name": "Apratim Das",

@@ -3,7 +3,7 @@ import "./Hero.css";
 
 const Hero = ({ heroRef }) => {
   // Wrap targetDate in useMemo to avoid recreation on every render
-  const targetDate = useMemo(() => new Date("2025-02-04T00:00:00"), []);
+  const targetDate = useMemo(() => new Date("2025-03-21T00:00:00"), []);
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,

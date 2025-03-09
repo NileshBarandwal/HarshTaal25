@@ -1,15 +1,28 @@
 .hero {
   position: relative;
-  background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3F5c3dub2o0NTNzZ2MxdTRxMHhkMzV0aGx4ZG9xY2VuYmdoejFlbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/n1uOzKXVMW9LBYgtNa/giphy.gif') no-repeat center center/cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 100vh;
   margin-top: -60px;
+
+  background: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 80%, rgba(0, 0, 0, 1)), 
+    url('/public/2225978545a050db5ea4ce5da5ec1208\ 1.png') no-repeat center center/cover;
+
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-attachment: fixed;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    background-position: -450px;
+    background-attachment: scroll; /* Avoids cropping issues on mobile */
+  }
+}
+
 
 .hero h1 {
   font-size: 7vw;
