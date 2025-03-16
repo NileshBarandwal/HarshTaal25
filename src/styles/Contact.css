@@ -24,7 +24,7 @@
 
 .contact h2 {
   font-size: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .contact .social-links {
@@ -34,14 +34,15 @@
   gap: 20px;
 }
 
-.contact .logos {
-  font-size: 60px;
-  margin: 20px;
-  transition: font-size 0.3s ease-in-out;
+.contact .social-links a:hover .logos{
+  transform: scale(1.2);
+
 }
 
-.contact .logos:hover {
-  font-size: 70px;
+.contact .logos {
+  font-size: 60px;
+  transition: transform 0.3s ease-in-out;
+  position: relative; /* Keeps it independent from surrounding elements */
 }
 
 .contact a {
@@ -49,6 +50,8 @@
   font-size: 30px;
   text-decoration: none;
   transition: color 0.3s;
+  display: inline-flex; /* Ensures proper alignment */
+  position: relative; /* Prevents layout shift */
 }
 
 .contact a:hover {
