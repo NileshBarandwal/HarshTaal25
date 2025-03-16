@@ -4,15 +4,15 @@
       "name": "Manindra Singh Rathore",
       "position": "Overall Coordinator",
       "contact": "98280 79907",
-      "image": "NA",
-      "instagram": "NA",
+      "image": "team_images/Manindra Bhaiya.jpg",
+      "instagram": "https://www.instagram.com/manindra_singh_rathore",
       "linkedin": "NA"
     },
     {
       "name": "Vedant Kannur",
       "position": "Overall Coordinator",
       "contact": "94499 38066",
-      "image": "team_images/IMG_7711_-_Vedant_Kannur.jpg",
+      "image": "team_images/Vedant Bhaiya.jpg",
       "instagram": "https://www.instagram.com/vedantkannur_07?igsh=bDlsbXhuamdiNDN0",
       "linkedin": "https://www.linkedin.com/in/vedant-kannur-478a50239?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
@@ -20,7 +20,7 @@
       "name": "Hemant Nayak",
       "position": "Events Lead",
       "contact": "96979 79652",
-      "image": "team_images/IMG20241027101409 - Pathlavath Hemanth Nayak.jpg",
+      "image": "team_images/Hemant Bhaiya.jpg",
       "instagram": "https://www.instagram.com/hemanth_.15",
       "linkedin": "https://www.linkedin.com/in/hemanth-nayak-1b92a8241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
@@ -60,15 +60,15 @@
       "name": "Aaditya Agarwal",
       "position": "Junior Overall Coordinator",
       "contact": "86605 01665",
-      "image": "NA",
-      "instagram": "NA",
+      "image": "team_images/Aaditya Agarwal.jpg",
+      "instagram": "https://www.instagram.com/aaditya0703?utm_source=qr&igsh=Zno1ZThqZDl0Zmw4",
       "linkedin": "NA"
     },
     {
       "name": "Priyanshu Vijay",
       "position": "Junior Overall Coordinator",
       "contact": "90276 52829",
-      "image": "NA",
+      "image": "team_images/IMG_20250216_135919_763 - PRIYANSHU ,.webp",
       "instagram": "NA",
       "linkedin": "NA"
     }
@@ -94,7 +94,7 @@
       "name": "Tushar Moitra",
       "position": "Website Head",
       "contact": "97809 06770",
-      "image": "NA",
+      "image": "team_images/Tushar Bhaiya.jpg",
       "instagram": "NA",
       "linkedin": "NA"
     },
@@ -104,7 +104,8 @@
       "contact": "81787 80088",
       "image": "NA",
       "instagram": "NA",
-      "linkedin": "NA"
+      "linkedin": "NA",
+      "hidden":true
     },
     {
       "name": "Gone Silas",
@@ -128,7 +129,8 @@
       "contact": "83681 86537",
       "image": "NA",
       "instagram": "NA",
-      "linkedin": "NA"
+      "linkedin": "NA",
+      "hidden":true
     },
     {
       "name": "Jatin Lather",
@@ -136,7 +138,8 @@
       "contact": "78276 42954",
       "image": "NA",
       "instagram": "NA",
-      "linkedin": "NA"
+      "linkedin": "NA",
+      "hidden": true
     }
   ],
   "Club Secretaries": [
@@ -144,7 +147,7 @@
       "name": "Priyanshu Vijay",
       "position": "Dramatics",
       "contact": "NA",
-      "image": "NA",
+      "image": "team_images/IMG_20250216_135919_763 - PRIYANSHU ,.webp",
       "instagram": "NA",
       "linkedin": "NA"
     },
@@ -194,7 +197,8 @@
       "contact": "NA",
       "image": "NA",
       "instagram": "NA",
-      "linkedin": "NA"
+      "linkedin": "NA",
+      "hidden": true
     }
   ],
   "POCs for events": [
