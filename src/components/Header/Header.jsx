@@ -67,7 +67,7 @@ const Header = ({ toggleSidebar, heroHeight }) => {
             <a href="/timeline">Schedule</a>
           </li>
           <li>
-            <a href="#team">Team</a>
+            <a href="/team">Team</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
