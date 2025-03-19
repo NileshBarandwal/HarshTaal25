@@ -71,7 +71,7 @@ function App() {
       <Hero heroRef = {heroRef} />
       <About />
       <Events />
-      <Sponsors />
+      {/* <Sponsors /> */}
       <Team />
       <Contact />
       {/* <Form /> */}
