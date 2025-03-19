@@ -51,7 +51,8 @@ const Hero = ({ heroRef }) => {
         <span>{String(timeLeft.seconds).padStart(2, "0")}</span>
       </h2>
       <a href="#events">
-        <button className="hero-button">Join Us In</button>
+        <button className="hero-button">
+          <a href="#events">Join Us In</a></button>
       </a>
     </section>
   );

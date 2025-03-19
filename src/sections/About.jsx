@@ -6,7 +6,12 @@ const About = () => (
       <h2>About Us</h2>
       <img src="https://i.ibb.co/kcRMw3D/image1.png" alt="About" />
       <p>
-        We are a vibrant and energetic team, dedicated to bringing creative and exciting events that leave a lasting impact on the community. Whether it's showcasing new innovations or organizing thrilling collaborations, our mission is to provide experiences that are not only entertaining but also educational. Join us and be part of something amazing!
+      HarSHtAl, the biggest cultural festival of IIT Dharwad, is a lively
+celebration of creativity, talent, and the arts. This annual event brings
+together colleges from the region to compete in various activities like
+drama, music, dance, literature, and more. It provides a platform for
+young artists to showcase their skills, express themselves, and celebrate
+the beauty of different art forms.
       </p>
     </section>
   );

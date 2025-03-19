@@ -14,7 +14,7 @@ const Contact = () => (
         <a href="https://www.instagram.com/harshtal_iitdh" target="_blank" rel="noopener noreferrer">
           <i className="ri-instagram-line logos"></i>
         </a>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://in.linkedin.com/company/iit-dharwad" target="_blank" rel="noopener noreferrer">
           <i className="ri-linkedin-box-fill logos"></i>
         </a>
       </div>
