@@ -8,7 +8,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => (
     <a href="#events" onClick={toggleSidebar}>Events</a>
     <a href="#sponsors" onClick={toggleSidebar}>Sponsors</a>
     <a href='/timeline' onClick={toggleSidebar}>Schedule</a>
-    <a href="#team" onClick={toggleSidebar}>Team</a>
+    <a href="/team" onClick={toggleSidebar}>Team</a>
     <a href="#contact" onClick={toggleSidebar}>Contact</a>
   </div>
 );
