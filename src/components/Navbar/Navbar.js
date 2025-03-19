@@ -57,9 +57,9 @@ const Navbar = ({ heroHeight }) => {
             <li className="nav-item">
               <a className="nav-link" href="#events">Events</a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#sponsors">Sponsors</a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a className="nav-link" href="/team">Team</a>
             </li>

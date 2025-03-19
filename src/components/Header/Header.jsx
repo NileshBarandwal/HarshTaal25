@@ -60,9 +60,9 @@ const Header = ({ toggleSidebar, heroHeight }) => {
           <li>
             <a href="#events">Events</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#sponsors">Sponsors</a>
-          </li>
+          </li> */}
           <li>
             <a href="/timeline">Schedule</a>
           </li>
